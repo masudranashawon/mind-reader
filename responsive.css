@@ -1,0 +1,370 @@
+/*
+========================================
+	 This File for Responsive Design    !
+========================================
+ */
+@media only screen and (max-width: 850px) {
+  #get-start-sec .lets-start h1 {
+    font-size: 30px;
+  }
+  #get-start-sec #user-name {
+    width: 50%;
+}
+
+}
+@media only screen and (max-width: 768px) {
+    .w-50 {
+      width: 100%;
+    }
+
+    #select-fruit-sec .fifth-section .right {
+      position: relative;
+      top: 50%;
+      right: 0;
+      transform: translateY(0%);
+    }
+
+    #think-fruit-name-sec {
+      height: auto;
+  }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    #get-start-sec .lets-start h1 {
+      font-size: 28px;
+  }
+
+  #get-start-sec #user-name {
+    width: 50%;
+    padding: 12px;
+  }
+
+  #get-start-sec #name-submit {
+    padding: 8px 35px;
+    font-size: 18px;
+  }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    #get-start-sec #user-name {
+      width: 60%;
+      padding: 10px;
+  }
+  }
+
+  @media only screen and (max-width: 550px) {
+    #select-fruit-sec {
+      padding: 0px;
+    }
+
+    #get-start-sec .lets-start h1 {
+      font-size: 26px;
+    }
+
+    #get-start-sec #user-name {
+      width: 65%;
+      padding: 10px;
+      border-radius: 3px 10px 3px 10px;
+      font-size: 16px;
+      margin: 8px 0;
+      box-shadow: inset 2px 2px 6px #3e3737;
+    }
+
+    #get-start-sec #user-name:focus {
+      box-shadow: 1px 1px 6px #3e3737, inset 1px 1px 6px #3e3737;
+    }
+
+    #get-start-sec #name-submit {
+      padding: 7px 20px;
+      font-size: 17px;
+      border-radius: 8px;
+      box-shadow: 0 0 3px #343434;
+      text-shadow: 1px 1px 2px rgb(15, 15, 15);
+    }
+
+    #think-fruit-name-sec .about-magic p {
+      font-size: 22px;
+    }
+
+    #think-fruit-name-sec #think-done-btn {
+      font-size: 16px;
+      padding: 8px 16px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    #select-fruit-sec .about-chose {
+      margin: 6px auto;
+      padding: 20px;
+      font-size: 26px;
+    }
+
+    #select-fruit-sec .fruits-name {
+      border-radius: 6px;
+      box-shadow: 1px 1px 3px #384b6a, -2px -1px 5px #495364;
+      margin: 7px auto;
+      padding: 20px 0;
+      width: 95%;
+      font-size: 28px;
+    }
+
+    #select-fruit-sec .submit-section {
+      box-shadow: 0 0 3px black;
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    #select-fruit-sec .submit-section #submitf {
+      padding: 4px 14px;
+      border-radius: 8px;
+      font-size: 26px;
+      text-shadow: 0px 0px 3px black;
+      margin-right: 6px;
+    }
+    
+    #select-fruit-sec .submit-section #reset {
+      padding: 4px 14px;
+      border-radius: 8px;
+      font-size: 26px;
+      box-shadow: inset 0px 0px 5px rgb(255 45 45);
+      text-shadow: 0px 0px 3px rgb(248, 73, 73);
+      margin-right: 6px;
+    }
+
+    .error-modal .error-content,
+    .error-modal-two .error-conten-two {
+      width: 300px;
+      border-radius: 10px;
+      padding: 10px 10px 30px;
+    }
+
+    .error-modal img,
+    .error-modal-two img {
+      width: 65px;
+      margin-bottom: 8px;
+    }
+
+    .error-modal p,
+    .error-modal-two p {
+      margin-bottom: 16px;
+      font-size: 18px;
+    }
+
+    .error-modal #accept,
+    .error-modal-two #accept-two {
+      border-radius: 5px;
+      width: 130px;
+      padding: 5px;
+      font-size: 18px;
+    }
+
+    #fruit-name-print .fruit-name-showing {
+      border: 2px dashed #ff77b3;
+      padding: 8px;
+      border-radius: 25px 4px;
+      font-size: 12px;
+    }
+    
+    .fruit-name-showing .ch-font {
+      font-size: 30px;
+    }
+
+    #fruit-name-print .details {
+      font-size: 22px;
+      text-align: justify;
+    }
+
+    #fruit-name-print .fruit-image {
+      width: 70%;
+    }
+
+    #select-fruit-sec form label {
+      font-size: 25px;
+      padding: 8px 28px;
+      border-radius: 6px;
+      margin: 10px 0;
+      box-shadow: 0 0 2px #3a3a3a;
+    }
+
+    #tooltip {
+      font-size: 14px;
+      border-radius: 6px;
+      padding: 2px;
+    }
+
+    #tooltip span {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #get-start-sec .lets-start h1 {
+      font-size: 22px;
+    }
+
+    #select-fruit-sec .about-chose {
+      margin: 6px auto;
+      padding: 15px;
+      font-size: 22px;
+    }
+
+    #select-fruit-sec .fruits-name {
+      font-size: 26px;
+    }
+
+    #fruit-name-print .fruit-name-showing {
+      padding: 6px;
+      border-radius: 20px 4px;
+      font-size: 10px;
+    }
+
+    .fruit-name-showing .ch-font {
+      font-size: 28px;
+    }
+
+    #select-fruit-sec .bdr {
+      border-radius: 20px;
+      padding: 15px;
+      margin: 15px 10px;
+    }
+    
+    #select-fruit-sec .submit-section {
+      margin: -10px 20px 5px;
+    }
+
+    #think-fruit-name-sec .full-fruit-name-list ul {
+      width: 95%;
+      border: 4px dotted #efefef;
+      border-radius: 0 10%;
+      box-shadow: 2px 2px 7px #000d1a, inset 2px 2px 7px #666c76;
+      padding: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    #fruit-name-print .fruit-name-showing {
+      font-size: 9px;
+    }
+
+    .fruit-name-showing .ch-font {
+      font-size: 25px;
+    }
+    
+    #tooltip {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    #get-start-sec .lets-start h1 {
+      font-size: 20px;
+    }
+
+    #get-start-sec #user-name {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    #get-start-sec .lets-start form {
+      flex-wrap: nowrap;
+    }
+
+    #get-start-sec .lets-start h1 {
+      font-size: 19px;
+    }
+
+    #get-start-sec #user-name {
+      width: 85%;
+      padding: 8px;
+    }
+
+    #select-fruit-sec .fruits-name ul {
+      width: 78%;
+      border-radius: 8px 35px;
+      box-shadow: 0 0 5px black;
+      padding: 10px;
+    }
+
+    #fruit-name-print .fruit-name-showing {
+      font-size: 8px;
+    }
+
+    #fruit-name-print .details {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    #get-start-sec #user-name {
+      width: 90%;
+    }
+    
+    #get-start-sec .lets-start h1 {
+      font-size: 16px;
+    }
+
+    #get-start-sec #name-submit {
+      font-size: 12px;
+    }
+
+    #think-fruit-name-sec .about-magic p {
+      font-size: 18px;
+    }
+
+    #think-fruit-name-sec ul {
+      font-size: 25px;
+    }
+
+    #select-fruit-sec .about-chose {
+      font-size: 20px;
+    }
+
+    #select-fruit-sec .fruits-name {
+      font-size: 24px;
+    }
+
+    #select-fruit-sec .fruits-name ul {
+      width: 85%;
+    }
+
+    #select-fruit-sec .submit-section {
+      padding: 10px;
+    }
+
+    #select-fruit-sec .submit-section #submitf {
+      padding: 4px 12px;
+      font-size: 20px;
+      margin-right: 2px;
+    }
+
+    #select-fruit-sec .submit-section #reset {
+      padding: 4px 12px;
+      font-size: 20px;
+      margin-right: 6px;
+    }
+
+    #select-fruit-sec form label {
+      font-size: 20px;
+      padding: 5px 22px;
+      border-radius: 3px;
+      margin: 6px 0;
+    }
+
+    #fruit-name-print .fruit-name-showing {
+      font-size: 7px;
+    }
+
+    .fruit-name-showing .ch-font {
+      font-size: 18px;
+    }
+
+    #fruit-name-print .details {
+      font-size: 16px;
+    }
+    
+    #fruit-name-print .fruit-image {
+      width: 80%;
+    }
+  }
+  
