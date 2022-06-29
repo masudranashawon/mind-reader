@@ -73,6 +73,7 @@ getUserName.addEventListener("submit", (e) => {
 		errorModal.classList.add("run-modal");
 	}
 });
+
 //Name section Close & Fruit thinking Section Open.............
 let fullFruitNameBtn = document.getElementById("think-done-btn");
 let selectFruitSec = document.getElementById("select-fruit-sec");
@@ -168,10 +169,10 @@ function myFunction(e) {
 }
 
 //Block Right Menu & Other CTRL Commands...........
-// document.addEventListener('contextmenu',(e)=>{
-//     e.preventDefault();
-//   }
-//   );
+document.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+}
+);
 
 document.onkeydown = function(e) {
 	if (event.keyCode == 123) {
@@ -203,17 +204,4 @@ window.onload = function() {
 			return false;
 		};
 	}
-};
-/*
-apel 14~~~~~~~~~~~~~~~ok
-am 135~~~~~~~~~~~~~~~~ok
-jam 145~~~~~~~~~~~~~~ok
-kathal 123~~~~~~~~~~~~ok
-malta 25 ~~~~~~~~~~~~~~ok
-kola 13~~~~~~~~~~~~~ok
-peyara 245~~~~~~~~~~~ok
-lechu 234~~~~~~~~~~~~ok
-tormuj 24~~~~~~~~~~~~ok
-komola 35~~~~~~~~~~~ok
-
-*/
+}
