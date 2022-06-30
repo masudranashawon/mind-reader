@@ -156,24 +156,24 @@ body {
 
 #get-start-sec {
   transition: all 0.3s;
-  background-image: linear-gradient( to right top, #0016ea, #640cef, #9101f3, #b600f6, #d700f9);
+  background: linear-gradient( to right top, #0016ea, #9c0cef, #5e01f3, #d900f6, #f900c3);
   font-family: "Tiro Bangla", serif;
   overflow: hidden;
   height: 100vh;
-  animation-name: coloreffect;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: reverse
+  animation: coloreffect 5s ease-in-out reverse infinite;
+  background-size: 300% 300%;
 }
 
 @keyframes coloreffect {
-  0% {
-      background-image: linear-gradient( to right top, #0016ea, #640cef, #9101f3, #b600f6, #d700f9)
-  }
-  100% {
-      background-image: linear-gradient( to right top, #d700f9, #b600f6, #9101f3, #640cef, #0016ea)
-  }
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
 }
 
 #get-start-sec .lets-start form {
